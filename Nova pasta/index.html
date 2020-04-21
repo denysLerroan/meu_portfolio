@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, maximum-scale=1, user-scalable=no">
+    <title>Lerroan</title>
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3b26885b30.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .section {
+            color: black;
+            background: linear-gradient(-120deg, rgb(87, 85, 85), #2b2b2c, #0f4c63, #07634d);
+            background-size: 600%, 600%;
+            background-attachment: fixed;
+            position: relative;
+            animation: change 8s;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+
+        .foto-perfil {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        .corPrimaria {
+            background-color: rgb(133, 133, 133);
+        }
+
+        .corSecundaria {
+            background-color: rgb(54, 54, 54);
+        }
+
+        .corTerciaria {
+            background-color: white;
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white !important;
+        }
+
+        p2 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black !important;
+        }
+
+        .icones {
+            font-size: 22px;
+            padding-left: 5px;
+        }
+
+        .iconesContato {
+            font-size: 25px;
+        }
+
+        .titulosBrancos {
+            font-style: normal;
+            padding-bottom: 20px;
+            font-weight: 500;
+            color: white;
+        }
+
+        .titulosAzuis {
+            font-style: normal;
+            padding-bottom: 20px;
+            font-weight: 500;
+            color: white;
+        }
+
+        .textosBrancos {
+            color: white !important;
+        }
+
+        .textosCinza {
+            color: white;
+        }
+
+        .textosPretos {
+            color: black;
+        }
+
+        .textoSkill {
+            font-weight: 300;
+        }
+
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+
+        .textoFooter {
+            margin: 0px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .sidedireita {
+            float: right;
+            text-align: justify;
+            width: 50%;
+        }
+
+        .sideesquerda {
+            float: left;
+            text-align: left;
+            width: 51%;
+        }
+        nav li{
+            display: list-item;
+        }
+        nav a{
+            display: block;
+            padding: 0px;
+            margin: 0px;
+            width: unset;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textosBrancos" href="#">Denys Lerroan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link textosBrancos" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textosBrancos" href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textosBrancos" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="jumbotron text-center section">
+
+        <div class="container">
+
+            <h1 class="jumbotron-heading textosCinza">Denys Lerroan</h1>
+            <p class="lead">Back-end Developer | Web Developer | Java</p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2 textosBrancos">Contato</a>
+            </p>
+            <a href="https://www.linkedin.com/in/denyslerroan/" target="_blank"><i
+                    class="textosBrancos icones fab fa-linkedin"></i></a>
+            <a href="https://github.com/DenysFerreira" target="_blank"><i
+                    class="textosBrancos icones fab fa-github"></i></a>
+            <a href="https://wa.me/5511961008937?text=Olá,%20acessei%20o%20seu%20número%20via%20link%20do%20seu%20portfólio."
+                target="_blank"><i class="textosBrancos icones fab fa-whatsapp"></i></a>
+            <a href="mailto:lerroandeco@gmail.com" target="_blank"><i
+                    class="textosBrancos icones fas fa-envelope"></i></a>
+        </div>
+    </section>
+    <div class="album py-5 section" id="projetos">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulosBrancos">Projetos</h2>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=5595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ibb.co/j8B2D84/qwqaw.jpg" data-holder-rendered="true">
+                        <div class="card-body textosPretos">
+                            <p2 class="card-text">Sistema de cadastro/gerenciamento de funcionários.</p>
+                                <p2 class="card-text">Tecnologias utilizadas:</p>
+                                    <nav>  
+                                        <ul>
+                                            <li class="sideesquerda"><a> Spring Boot & MVC</a></li>
+                                            <li><a>MySQL</a></li>
+                                            <li class="sideesquerda"><a>Maven</a></li>
+                                            <li><a>Thymeleaf</a></li>
+                                            <li class="sideesquerda"><a>JPA(Hibernate)</a></li>
+                                            <li><a>HTML, CSS, JS e Bootstrap</a></li>
+                                        </ul>
+                                    </nav>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://spring-mvc-thymeleaf.herokuapp.com/" target="_blank">
+                                                <button type="button" class="btn btn-sm btn-outline-success">Visualizar
+                                                    o
+                                                    projeto</button>
+                                            </a>
+                                            <a href="https://github.com/DenysFerreira/spring-mvc-thymeleaf"
+                                                target="_blank">
+                                                <button type="button" class="btn btn-sm btn-outline-primary">Visualizar
+                                                    o
+                                                    código</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=5595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ibb.co/whShH5f/Spring-Project-Deploying.jpg" data-holder-rendered="true">
+                        <div class="card-body textosPretos">
+                            <p2 class="card-text">Web Service Spring Boot & JPA (Em desenvolvimento).</p>
+                                <p2 class="card-text">Tecnologias utilizadas:</p>
+                                <nav>  
+                                    <ul>
+                                        <li class="sideesquerda"><a> Spring Boot & MVC</a></li>
+                                        <li><a>PostgreSQL</a></li>
+                                        <li class="sideesquerda"><a>Maven</a></li>
+                                        <li><a>Apache Tomcat</a></li>
+                                        <li class="sideesquerda"><a>JPA(Hibernate)</a></li>
+                                        <li><a>Banco de dados H2</a></li>
+                                    </ul>
+                                </nav>      
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-light">Visualizar o
+                                                projeto</button>
+                                            <a href="https://github.com/DenysFerreira/springboot-2-web-services-jpa" target="_blank"><button type="button" class="btn btn-sm btn-outline-primary">Visualizar o
+                                                código</button></a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre mim -->
+    <section class="jumbotron text-center section" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <p class="lead">
+                Estudante EAD no curso Tecnólogo em Análise e Desenvolvimento de Sistemas.
+                <p class="lead">
+                    Comunicativo,
+                    ágil, proativo e com habilidade para assimilar as necessidades da empresa e, assim,
+                    prover soluções.
+                    Procuro sempre exercitar as habilidades que tenho e desenvolver novas, que vão enriquecer muito
+                    o meu
+                    trabalho e, consequentemente, serão benéficas à empresa.
+                </p>
+            </p>
+        </div>
+    </section>
+
+    <!-- Contato -->
+
+    <section id="contato">
+        <div>
+            <div class="container-fluid text-center iconesContato corTerciaria section">
+                <h3 class="jumbotron-heading titulosAzuis text-center" style="padding-top: 60px;">Disponível para
+                    oportunidades</h3>
+                <p class="lead text-center ">
+                    Gostaria de entrar em contato comigo?
+                    <p class="lead text-center">
+                        É só acessar o link de sua preferência e será redirecionado para iniciar o contato.
+                    </p>
+                </p>
+                <a href="https://wa.me/5511961008937?text=Olá,%20acessei%20o%20seu%20número%20via%20link%20do%20seu%20portfólio."
+                    target="_blank" style="color: white;>
+                        <h4 class=" lead text-center" style="padding-bottom: 0px; margin-bottom:0px;"></h4><i
+                        class="icones fab fa-whatsapp"></i></a>
+                <a href="mailto:lerroandeco@gmail.com" target="_blank" style="color: white;">
+                    <h5 style="padding-bottom: 0px; margin-bottom:0px;"></h5><i class="icones fas fa-envelope"></i>
+                </a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="corSecundaria text-center textoFooter">
+        <p class="textosBrancos">© 2020 Lerroan. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
